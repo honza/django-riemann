@@ -37,11 +37,11 @@ RIEMANN_LOGGER_TRANSPORT = 'udp'  # or 'tcp'
 
 
 LOGGING = {
-    ...
+    # ...
     'handlers': {
         'riemann': {
             'level': 'INFO',
-            'class': riemann.handler.RiemannHandler'
+            'class': 'riemann.handler.RiemannHandler'
         }
     }
 }
