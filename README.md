@@ -1,8 +1,10 @@
 django-riemann
 ==============
 
-Send logging information to a Riemann instance via Django's `LOGGING`
+Send logging information to a [Riemann][1] instance via Django's `LOGGING`
 directive.
+
+[1]: http://riemann.io/
 
 Installl
 --------
