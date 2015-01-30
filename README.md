@@ -17,11 +17,11 @@ Fields
 ------
 
 ```
-host: the host name of the app that is sending the logs
-service: 'django-logger'
-state: log level
-time: time of the log event
-tags: logger name
+host:        the host name of the app that is sending the logs
+service:     'django-logger'
+state:       log level
+time:        time of the log event
+tags:        logger name
 description: traceback if available
 ```
 
