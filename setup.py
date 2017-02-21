@@ -1,7 +1,10 @@
 
 from setuptools import setup
 
-long_desc = open('README.md').read()
+try:
+    long_desc = open('README.md').read()
+except IOError:
+    long_desc = ''
 
 setup(
     name='django-riemann',
