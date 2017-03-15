@@ -1,11 +1,14 @@
 
 from setuptools import setup
 
-long_desc = open('README.md').read()
+try:
+    long_desc = open('README.md').read()
+except IOError:
+    long_desc = ''
 
 setup(
     name='django-riemann',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/honza/django-riemann',
     install_requires=[
         'bernhard'
